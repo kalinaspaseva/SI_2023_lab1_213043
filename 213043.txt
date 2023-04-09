@@ -1,0 +1,30 @@
+1.Најпрво инсталирав Git и имав веќе постоечки github профил.
+2.Ја сменив main во master 
+3.Креирав репозиториум на github со име SI_2023_lab1_213043
+4.Го креирав истоимениот локален репозиторум со командата mkdir, со gitinit го иницијализирав документот 
+5.Cо командата git remote add origin https://github.com/kalinaspaseva/SI_2023_lab1_213043.git, го поврзав локалнипот репозиториум со далечниот
+6.Со командата nano README.md го креирав текстуалниот фајл, се потпишав , направив stage со git add  и направив commit со командата git commit -m "Inital commit"
+7.Исто како и за претходниот фајл, го креирав SILab1.java со командата nano SILab1.java,ја додадов класата во фајлот, направив git add SILab1.java и git commit -m "Add java class"
+8.Направив git push -u origin master
+9.Трите гранки ги креирав со командите git branch bug1, git branch bug2, git branch bug3
+10.Се префрлам со git checkout bug1
+11.Ја поправив грешката во програмата, направив git add SILab1.java и git commit -m "Fix wrong loop for reading"
+12.Се префрлам со git checkout bug2
+13.Ја поправив грешката во програмата, направив git add SILab1.java и git commit -m "Fix wrong condition in filterOddNumbers"
+14.Се префрлам со git checkout bug3
+15.Ја поправив грешката во програмата, направив git add SILab1.java и git commit -m "Fix method sumEvenNumbers"
+16.Направив git push --all origin со ги турнав локалните гранки на remote repository
+17.git checkout master
+18.Со наредбата git merge bug1 ја споив гранката bug1 со master, при што не се случија конфликти.
+19.Со наредбата git push --all origin ги ставив промените на remote repositorium. 
+20.Со наредбата git merge bug2 ја споив гранката bug2 со master, но морав да додадам и commit message, па затоа на далечниот репозиторум стои различен commit message.
+ Не се случија никакви конфликти.
+21.Со наредбата git push --all origin ги ставив промените на remote repository. 
+22.Со наредбата git checkout bug3 се префрлив на гранката bug3
+23.Со наредбата git rebase master се прави rebase на врв на master, со што добив порака succesfully rebased and updated
+24.git checkout master
+25.Со наредбата git merge bug3 ја споив гранката bug3 со master
+26.Со наредбата git push --all origin --force ги префрлив сите локални гранки во remote repository.
+27.Со наредбата nano logs.txt креирав текстуална датотека каде што ги внесов сите logs кои ми ги даде командата git log и датотеката 213043.txt 
+и на двете им направив последен commit со git commit -m "Final commit".
+28.Со наредбата git push --all origin ги турнав сите локални гранки на remote repository.

@@ -1,0 +1,37 @@
+$ git log
+commit b88990a1e3176fe81302c35ba7466cb934709c6f (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: kalinaspaseva <109042398+kalinaspaseva@users.noreply.github.com>
+Date:   Sun Apr 9 12:11:14 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit e372e5b1b85be35b82f4fe16838648e2b4e59b14
+Merge: 9c70b9c 7f60d5e
+Author: kalinaspaseva <109042398+kalinaspaseva@users.noreply.github.com>
+Date:   Sun Apr 9 12:17:51 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 7f60d5e86e649be852740bb144b3a199239fbc7a (origin/bug2, bug2)
+Author: kalinaspaseva <109042398+kalinaspaseva@users.noreply.github.com>
+Date:   Sun Apr 9 12:09:57 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 9c70b9cb2afe04a626c395898ce72ec003f6e754 (origin/bug1, bug1)
+Author: kalinaspaseva <109042398+kalinaspaseva@users.noreply.github.com>
+Date:   Sun Apr 9 12:08:18 2023 +0200
+
+    Fix wrong loop for reading
+
+commit b3e6d4483d8a2498348503b185938b2ca723645a
+Author: kalinaspaseva <109042398+kalinaspaseva@users.noreply.github.com>
+Date:   Sun Apr 9 12:04:44 2023 +0200
+
+    Add java class
+
+commit 837c3fb4b36d769bf4501f659f3984e5b85bf917
+Author: kalinaspaseva <109042398+kalinaspaseva@users.noreply.github.com>
+Date:   Sun Apr 9 12:03:25 2023 +0200
+
+    Initial commit
